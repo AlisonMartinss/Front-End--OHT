@@ -8,4 +8,4 @@ Sistema front-end responsivo e sonoro para pagamento de multas e ouvidoria de um
 - CSS
 - JavaScrip (manipulação com DOM)
 
-  ![teste](https://github.com/AlisonMartinss/Assets/blob/main/Sem-T%C3%ADtulo-1.jpg)
+  ![teste](https://github.com/AlisonMartinss/Assets/blob/main/tutorial2.jpg)
