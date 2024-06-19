@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*
+
+- Position Absolute e Relative.
+- Sobreposição de elementos. Z-index
+- Oque é: overflow: hidden;
+
+*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.body{
+    box-sizing: border-box;
+    background-color: #ffffff;
+    height: 100vh;
+}
+
+.body.tema_escuro {
+    box-sizing: border-box;
+    background-color: #777777;
+    height: 100vh;
+}
+
+.main_lo{
+    position: relative;
+}
+
+.sub_main_lo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.title_login{
+    padding: 5% 0% 0% 0%;
+    color: #ffffff;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.form{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    width: 15%;
+    
+
+    margin: 15% 0% 0% 0%;
+    background-image: linear-gradient(45deg,#3259adc0,#53cbffc0);
+    border-radius: 25px;
+}
+.form_father{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    width: 100%;
+    height: 100%;
+}
+
+.form_sun{
+    gap: 15px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.form_sun_b{
+    position: relative;
+    padding: 0% 0% 10% 0%;
+    gap: 15px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form_sun_c{
+    position: relative;
+    padding: 0% 0% 10% 0%;
+    gap: 15px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.idform{
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+
+
+.input{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0);
+
+    
+    padding: 5% 0% 5% 3%;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    
+
+    width: 100%;
+    height: 15%;
+
+
+}
+
+.forgot_pass{
+
+
+    
+    color: #ffffff;
+    padding: 0% 0% 5% 0%;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    
+}
+
+.submit{
+    border-radius: 5px;
+    border: 0%;
+    outline: none;
+
+    padding: 1% 2% 1% 2%;
+    margin: 0% 0% 8% 0%;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+
+    background-color: #ffffff ;
+}
+
+.texto_lo{
+    background-color: rgb(255, 205, 4);
+    margin: 0% 0% 75% 60%;
+    height: 100%;
+    width: 10%;
+}
+
+.mascote_lo{
+   position: absolute;
+   top: 35%;
+   left: 20%;
+}
+
+.relogio{
+    position: absolute;
+    top: 85%;
+    left: 54%;
+
+}
+
+.alert{
+
+    position: absolute;
+
+    top: 25%;
+
+    display: flex;
+    justify-content: center;
+
+    width: 15%;
+    background-color: #ffa5a5;
+    color: #ffffff;
+
+    border-radius: 8px;
+    border-width: 2px;
+    border-color: #ff0000;
+    border-style: solid;
+
+    display: none;
+
+    
+}
+
+.alert.active{
+
+    display: flex;
+    justify-content: center;
+
+    display: block;
+}
+
+.alert_texto{
+
+    display: flex;
+    justify-content: center;
+
+    font-family: "Poppins", sans-serif;
+    font-weight:500;
+    font-style: normal;
+    font-size: 15px; 
+    
+    padding: 4% 1% 4% 1%;
+}
+
+/*DISPLAY*/
+
+.aparicaolog{
+    display: none;
+}
+
+/* HOVER*/
+
+
+
+
+

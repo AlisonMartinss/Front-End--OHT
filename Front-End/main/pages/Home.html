@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orgão Hipotético de Trânsito</title>
+
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/style2.css">
+    <link rel="stylesheet" href="../CSS/Home.css">
+    
+
+    <script src="../cod-JS/Home.js" defer type="module" ></script>
+    
+
+</head>
+<body class="body">
+
+        <header class="header-b">
+        
+            <div class="cabecalho-b">
+
+                    <div class="b_chat">
+
+                        <img src="../midia/chat_icone.png" alt="icone chat"
+                        width="35px"
+                        height="35px">
+
+                        <a class="b_filtro_b" href="./Atendimento.html"> Atendimento</a>
+            
+                    </div>
+
+                    <div class="b_chat">
+
+                        <img src="../midia/filtro.png" alt="icone de filtro"
+                        width="30px"
+                        height="30px">
+            
+                        <button data-filtraMultas class="b_filtro_b">
+                            Filtrar Multas
+                        </button>
+            
+                    </div>
+
+                  
+         
+            </div>
+
+    </header>
+
+    <form data-form  class="form">
+        <div class="radio-group">
+
+            <h3>Organizar por :</h3>
+            <label>
+                <input type="radio" name="option" value="1">
+                Valor
+            </label>
+           
+        
+            <label>
+                <input type="radio" name="option" value="2">
+                Data
+            </label>
+
+            <label>
+                <input type="radio" name="option" value="3">
+                Pendente
+            </label>
+
+            <label>
+                <input type="radio" name="option" value="4">
+                Já Pago
+            </label>
+        </div>
+    </form>
+   
+
+    <main class="main" >
+
+        
+         
+
+
+        <div class="dados_moto">
+            <h2 class="dados_moto-a">Dados Do Motorista</h2>
+        </div>
+
+        <div data-dadosMotorista class="dadosMotorista">
+
+        
+
+        </div>
+
+        <h1 class="historico-multas">Historico de Multas</h1>
+        
+        <ul data-multas class="infoMultas">
+
+             
+
+        </ul>
+
+        <img class="img-waring"   src="../midia/warring.png" alt="">
+
+        <div data-navegacao class="nav-pag">
+
+
+            <div class="next-page">
+
+
+                <button data-Anav  class="next_Apage_but">
+                    <img  class="imagem_nav" src="../midia/nextpage.png" alt="icone de seta"
+                    width="36px"
+                    height="36px">
+                </button>
+
+                <div data-indPage  class="ind-page">
+                    0
+                </div>
+
+                <button data-Bnav  class="next_Bpage_but">
+                    <img  class="imagem_nav"   src="../midia/backpage.png" alt="icone de seta"
+                    width="36px"
+                    height="36px">
+                </button>
+
+            </div>
+
+        </div>
+
+    </main>
+</body>

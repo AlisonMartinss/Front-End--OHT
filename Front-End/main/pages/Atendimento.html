@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atendimento</title>
+
+    <link rel="stylesheet" href="../CSS/Home.css">
+    <link rel="stylesheet" href="../CSS/Atendimento.css">
+
+    <script src="../cod-JS/Atendimento.js" defer type="module" ></script>
+
+</head>
+<body class="body">
+    <header class="header-b">
+        <div class="cabecalho-b">
+
+                <div class="b_chat">
+                    <img src="../midia/home.png" alt="icone chat"
+                    width="35px"
+                    height="35px">
+
+                    <a class="b_filtro_b"  href="./Home.html">
+                        Voltar ao Inicio 
+                    </a>
+                </div>
+        </div>
+    </header>
+
+    <img  class="formulario_img" src="../midia/34.png" alt=""
+    width="300px"
+    height="300px">
+    
+    <main class="main_atendimento">
+
+        <form data-form  class="formulario" action="">
+
+                  <div class="formulario_a">
+                    <label for="">Titulo Da Chamada</label>
+                    <input data-titulo  maxlength="100" class="formulario_ab"  type="text" value="">
+                  </div>
+  
+                  <div class="formulario_b">
+                      <label for="">Descreva a sua questão</label>
+                      <textarea data-mensagem  id="message" name="message" class="text-area" 
+                      placeholder="Digite sua mensagem aqui..."
+                      maxlength="500"></textarea>
+                  </div>
+
+                
+
+                <input class="submit-a" type="submit" value="Enviar">
+ 
+        </form>
+
+    </main>
+    
+</body>
+</html>

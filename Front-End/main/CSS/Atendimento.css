@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main_atendimento{
+
+    position: relative;
+}
+
+.body{
+   
+    box-sizing: border-box;
+    background-color: #ffffff;
+    height: 100vh;
+}
+.formulario{
+
+    height: 100%;
+    width: 90%;
+
+
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+
+    margin-top: 8%;
+    margin-left: 0%;
+
+    padding: 2%;
+
+    
+    
+ 
+}
+
+.formulario_a{
+
+    width: 35%;
+
+    margin-left: 25%;
+    
+    
+
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    justify-content: center;
+
+    font-family: "Poppins", sans-serif;
+    font-weight:500;
+    font-style: normal;
+    font-size: 18px; 
+}
+
+.formulario_b{
+
+    width: 70%;
+    height: 100%;
+
+   margin-left: 25%;
+    
+    
+
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    justify-content: center;
+
+    font-family: "Poppins", sans-serif;
+    font-weight:500;
+    font-style: normal;
+    font-size: 18px;
+
+
+}
+
+.formulario_ab{
+
+    padding: 1%;
+    border-radius: 3px;
+
+    font-family: "Poppins", sans-serif;
+    font-weight:400;
+    font-style: normal;
+    font-size: 15px;
+
+}
+
+.text-area{
+
+    width: 80%;
+    height: 300px;
+
+    font-family: "Poppins", sans-serif;
+    font-weight:400;
+    font-style: normal;
+    font-size: 15px;
+
+  
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 3px;
+    resize: both;
+
+    resize: none;
+}
+
+.submit-a{
+
+    margin-left: 75%;
+
+    width: 5%;
+    border-radius: 10px;
+    border: none;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+
+    background-color: rgb(34, 152, 255);
+    color: rgb(255, 255, 255);
+
+
+
+    font-family: "Poppins", sans-serif;
+    font-weight:400;
+    font-style: normal;
+    font-size: 15px;
+
+    cursor: pointer;
+    transition: .5s ease;
+}
+
+.submit-a:hover{
+
+    background-color: rgb(3, 0, 156);
+    transition: .5s ease;
+
+}
+
+.formulario_img{
+    position: absolute;
+
+    top: 10%;
+    left: 60%;
+}
