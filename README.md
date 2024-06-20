@@ -9,11 +9,11 @@ Sistema front-end responsivo e sonoro para pagamento de multas e ouvidoria de um
 - JavaScrip (manipulação com DOM)
 
 
-#### O proposito do tutorial a seguir é auxiliar o usuario, mas as inerações só serão possiveis se você também estiver usando a API-REST OHT ( Que pode ser acessada aqui: 
+#### O proposito do tutorial a seguir é auxiliar o usuario, mas as interações só serão possiveis se você também estiver usando a API-REST OHT ( Que pode ser acessada aqui: 
 
 - [![API](https://img.shields.io/website-up-down-green-red/http/monip.org.svg)](https://github.com/AlisonMartinss/API-REST--OHT) ).
 
-#### Se for o caso do seu proposito for somente estudar/ver o Front-Endm fique a vontade :)
+#### Se for o caso do seu proposito for somente estudar/ver o Front-End fique a vontade :)
 
   ![teste](https://github.com/AlisonMartinss/Assets/blob/main/Tutorial1.png)
 
